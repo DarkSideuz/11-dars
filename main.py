@@ -1,7 +1,12 @@
 import psycopg2
 from datetime import datetime, timedelta
 
-db = psycopg2.connect("dbname=your_database user=your_user password=your_password")
+db = psycopg2.connect(
+    host="",
+    database="",
+    user="",
+    password=""
+)
 
 with db.cursor() as cur:
     cur.execute("""
