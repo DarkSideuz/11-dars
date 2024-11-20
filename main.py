@@ -1,5 +1,5 @@
 import psycopg2
-from datetime import datetime, timedelta
+
 
 db = psycopg2.connect(
     host="",
